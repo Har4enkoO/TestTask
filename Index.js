@@ -46,7 +46,7 @@
           } else {
             element.setAttribute("data-clicked", "false");
 
-            if ((element.id = "0")) {
+            if ((element.id === "0")) {
               body.insertAdjacentElement("afterbegin", element);
             } else {
               const previousElement = document.getElementById(
